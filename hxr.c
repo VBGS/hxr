@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 
-static char x2d(unsigned char c) {
+static unsigned char x2d(unsigned char c) {
 	return isdigit(c) ? c - '0' : tolower(c) - 'a' + 10;
 }
 
@@ -19,7 +19,7 @@ int main(int argc, char* argv[]) {
 	if (!binary)
 		return fprintf(stderr, "Could not open binary file '%s'", argv[2]), 1;
 
-	char byte;
+	unsigned char byte;
 	int c, nibble = 0;
 
 	while ((c = fgetc(source)) != EOF) {
