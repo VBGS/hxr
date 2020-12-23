@@ -5,7 +5,7 @@ Instead of modifying binary files directly, you write hexadecimal digits in a fi
 This allows you to put comments in your files and format your hex digits as you like.
 Single-line comments start with '#' and multi-line comments are enclosed between '<' and '>'.
 
-For an example of the syntax, checkout [this](https://github.com/VBGS/Tsss.../blob/main/creeper.hxr) CHIP-8 program.
+For an example of the syntax, check out [this](https://github.com/VBGS/Tsss.../blob/main/creeper.hxr) CHIP-8 program.
 
 # Installation
 ```sh
